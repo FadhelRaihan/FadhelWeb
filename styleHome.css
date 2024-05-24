@@ -1,0 +1,304 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    color: #121481;
+}
+
+/* ========================================== */
+.header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a h1 {
+    color: #121481;
+    transition: 0.3s ease-in-out;
+}
+
+.header a h1:hover {
+    color: #0C0C0C;
+    cursor: pointer;
+}
+
+.buttonPage {
+    margin-left: 110vh;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.buttonPage h2 {
+    color: #121481;
+    font-size: large;
+    transition: 0.3s ease-in-out;
+
+}
+
+.buttonPage h2:hover {
+    color: #0C0C0C;
+    cursor: pointer;
+}
+
+.buttonTheme {
+    background-color: #9B3922;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.headerimg1 {
+    width: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.headerimg2 {
+    width: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    display: none;
+}
+
+.dark-mode .headerimg2 {
+    display: block;
+    z-index: 1;
+}
+
+.dark-mode .headerimg1 {
+    display: none;
+    z-index: -1;
+}
+
+.dark-mode .header {
+    background-color: #0C0C0C;
+}
+
+.dark-mode .header a h1 {
+    color: #F2613F;
+}
+
+.dark-mode .buttonPage h2 {
+    color: #F2613F;
+}
+
+.dark-mode .header a h1:hover {
+    color: #481E14;
+}
+
+.dark-mode .buttonPage h2:hover {
+    color: #481E14;
+}
+
+/* ========================================== */
+.Awal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center;
+    padding: 10%;
+    background-color: #FFEAE3;
+    height: 60vh;
+}
+
+.Awal img {
+    width: 350px;
+    border-radius: 100vh;
+    box-shadow: 10px 10px 5px -2px rgba(18, 20, 129, 0.16);
+    -webkit-box-shadow: 10px 10px 5px -2px rgba(18, 20, 129, 0.16);
+    -moz-box-shadow: 10px 10px 5px -2px rgba(18, 20, 129, 0.16);
+    transition: 0.5s;
+}
+
+.Awal img:hover {
+    width: 400px;
+}
+
+.Awal h1 {
+    width: 64%;
+    margin-left: 4%;
+    font-size: 4.5vh;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.isiCV {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+}
+
+.isiCV h1 {
+    margin-top: 10%;
+    font-size: 8vh;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+/* ========================================== */
+.isiProfile {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+
+.isiProfile h2 {
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: -4.7%;
+    transition: 0.3s ease-in-out;
+}
+
+.isiProfile p {
+    width: 40%;
+    margin-left: 12.7%;
+    margin-top: 32px;
+    font-size: large;
+    transition: 0.3s ease-in-out;
+}
+
+/* ========================================== */
+.isiPendidikan {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+
+.isiPendidikan h2 {
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: 3%;
+    transition: 0.3s ease-in-out;
+}
+
+.isiPendidikan ul li {
+    width: 100%;
+    margin-left: 9%;
+    margin-top: 20px;
+    font-size: large;
+    transition: 0.3s ease-in-out;
+}
+
+/* ========================================== */
+.isiPengalaman {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+
+.isiPengalaman h2 {
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: -10%;
+    transition: 0.3s ease-in-out;
+}
+
+.isiPengalaman ul li {
+    width: 100%;
+    margin-left: 7.6%;
+    margin-top: 20px;
+    font-size: large;
+    transition: 0.3s ease-in-out;
+}
+
+/* ========================================== */
+.isiSkill {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+
+.isiSkill h2 {
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: -71%;
+    transition: 0.3s ease-in-out;
+}
+
+.isiSkill ul li {
+    width: 100%;
+    margin-left: 41.5%;
+    margin-top: 20px;
+    font-size: large;
+    transition: 0.3s ease-in-out;
+}
+
+/* ========================================== */
+.isikontak {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+
+.isikontak h2 {
+    font-weight: 600;
+    font-size: xx-large;
+    margin-left: -103.3%;
+    transition: 0.3s ease-in-out;
+}
+
+.isikontak ul li {
+    width: 100%;
+    margin-left: 43.5%;
+    margin-top: 20px;
+    font-size: large;
+    transition: 0.3s ease-in-out;
+}
+
+/* ========================================== */
+.SebFooter {
+    border-bottom: 2px solid;
+    font-size: larger;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 8%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+/* ========================================== */
+.sosmed {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.sosmed a {
+    text-decoration: none;
+    padding-inline: 20px;
+    font-size: 1.5rem;
+    color: #121481;
+    transition: 0.3s ease-in-out;
+}
+
+.sosmed a:hover {
+    color: black;
+}
+
+/* ========================================== */
+.dark-mode {
+    background-color: #0C0C0C;
+    color: #F2613F;
+}
+
+.dark-mode a {
+    color: #F2613F;
+}
+
+.dark-mode a:hover {
+    color: #481E14;
+}
+
+.dark-mode .Awal {
+    background-color: #481E14;
+}
